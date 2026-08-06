@@ -1,3 +1,7 @@
-import findmax
 
-print(findmax.find_max([10, 56, 78, 45, 23, 45,  96, 35, 23, 56, 788]))
+def find_max(num):
+    max = num[0]
+    for i in num:
+        if i > max:
+            max = i
+    return max
