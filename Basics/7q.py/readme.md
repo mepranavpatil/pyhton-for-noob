@@ -1,0 +1,1 @@
+ust simple dice question
